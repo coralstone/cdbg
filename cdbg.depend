@@ -1,0 +1,174 @@
+# depslib dependency file v1.0
+1532083603 source:c:\cdbg\main.cpp
+	"log.h"
+	"on_handle.h"
+	<sstream>
+
+1532071562 c:\cdbg\log.h
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<malloc.h>
+
+1532080606 source:d:\新建文件夹\cdbg\main.cpp
+	"log.h"
+	"on_handle.h"
+	<sstream>
+
+1532071562 d:\新建文件夹\cdbg\log.h
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<malloc.h>
+
+1532056021 d:\新建文件夹\cdbg\on_handle.h
+	<string>
+	<vector>
+	<iostream>
+
+1532082594 source:d:\新建文件夹\cdbg\on_handle.cpp
+	"on_handle.h"
+	"dbg_engine.h"
+
+1532082468 d:\新建文件夹\cdbg\dbg_engine.h
+	"log.h"
+	"dbghelp.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+
+1532062613 d:\新建文件夹\cdbg\dbghelp.h
+
+1532056021 c:\cdbg\on_handle.h
+	<string>
+	<vector>
+	<iostream>
+
+1532082594 source:c:\cdbg\on_handle.cpp
+	"on_handle.h"
+	"dbg_engine.h"
+
+1532089651 c:\cdbg\dbg_engine.h
+	"log.h"
+	"dbghelp.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+
+1532062613 c:\cdbg\dbghelp.h
+
+1533459520 source:d:\cdbg\main.cpp
+	"log.h"
+	"on_handle.h"
+	<sstream>
+
+1532425034 d:\cdbg\log.h
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<malloc.h>
+
+1533459561 d:\cdbg\on_handle.h
+	<string>
+	<vector>
+	<iostream>
+
+1533469886 source:d:\cdbg\on_handle.cpp
+	"on_handle.h"
+	"dbg_engine.h"
+
+1533459557 d:\cdbg\dbg_engine.h
+	"log.h"
+	"dbghelp.h"
+	"ps.h"
+	"asm.h"
+	"sym.h"
+	"ns.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+	<fstream>
+	<map>
+
+1532062613 d:\cdbg\dbghelp.h
+
+1533468131 d:\cdbg\ps.h
+	<vector>
+
+1533470382 source:d:\cdbg\ps.cpp
+	"log.h"
+	<vector>
+	<tlhelp32.h>
+	<iostream>
+	<iomanip>
+
+1532159453 source:d:\a\cdbg\main.cpp
+	"log.h"
+	"on_handle.h"
+	<sstream>
+
+1532071562 d:\a\cdbg\log.h
+	<windows.h>
+	<stdio.h>
+	<stdarg.h>
+	<ctype.h>
+	<malloc.h>
+
+1532159554 d:\a\cdbg\on_handle.h
+	<string>
+	<vector>
+	<iostream>
+
+1532258512 source:d:\a\cdbg\on_handle.cpp
+	"on_handle.h"
+	"dbg_engine.h"
+
+1532262444 d:\a\cdbg\dbg_engine.h
+	"log.h"
+	"dbghelp.h"
+	"ps.h"
+	<iostream>
+	<iomanip>
+	<sstream>
+
+1532062613 d:\a\cdbg\dbghelp.h
+
+1532169487 d:\a\cdbg\ps.h
+	<vector>
+
+1532169796 source:d:\a\cdbg\ps.cpp
+	"log.h"
+	<vector>
+	<tlhelp32.h>
+	<iostream>
+	<iomanip>
+
+1532943666 source:d:\cdbg\asm.cpp
+	<windows.h>
+	<stdio.h>
+	<math.h>
+	<ctype.h>
+	"asm.h"
+
+1533179450 d:\cdbg\asm.h
+
+1532935458 source:d:\cdbg\sym.cpp
+	<windows.h>
+	"dbghelp.h"
+	"sym.h"
+	<malloc.h>
+	<stdio.h>
+
+1533026706 d:\cdbg\sym.h
+
+1533471678 source:d:\cdbg\ns.cpp
+	"log.h"
+	<iostream>
+	<iomanip>
+	"ps.h"
+
+1533453103 d:\cdbg\ns.h
+
