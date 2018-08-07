@@ -52,6 +52,14 @@ void splitcmd( vector<string> &lst,string &cmd)
 		lst.push_back(partialArg);
 	}
 }
+
+#define DBG_VERSION 0.87
+void out_version(){
+	
+	cout << "Common Debugger version "<< DBG_VERSION << endl;
+	cout << "<C> Copyright 2016-2018 Coral.Stone.Co" << endl;
+}
+
 void on_help(const Cmds &cmds)
 {
     cout << "debug command list:" << endl;
@@ -82,7 +90,7 @@ int parsecmd( vector<string>  & cmds) {
 	} cmdentry;
 
 	  static cmdentry cmdMap[] = {
-
+	         
 		{  "s", on_start},
 		{  "e", on_stop },
 		{  "g", on_go },
@@ -126,7 +134,7 @@ int parsecmd( vector<string>  & cmds) {
 
 int main()
 {
-    cout << "\tWelcome to use Common Debugger by Coral.Stone! " << endl;
+    out_version();
 
     string cmd;
     vector<string> cmds;
